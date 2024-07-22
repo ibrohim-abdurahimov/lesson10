@@ -37,6 +37,14 @@ a{
     font-weight: 700;
     color: #9093A6;
 }
+.navbar__link:hover{
+    color: #fff;
+    background-color: #9093A6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
 .hero__wrapper{
     display: flex;
     align-items: center;
@@ -88,6 +96,10 @@ a{
     border-radius: 4px;
     border: none;
 }
+.restaurants__btn:hover{
+    color: #F2F4FA;
+    background-color: #9093A6;
+}
 .restaurants__wrapper{
     display: flex;
     gap: 24px;
@@ -95,10 +107,78 @@ a{
 .restaurants__card{
     width: calc(25% - 18px);
     border-radius: 4px;
+    margin-bottom: 72px;
 }
 .card__img{
     height: 60%;
 }
 .card__body{
     height: 40%;
+    box-shadow: 0px 2px 16px 0px #3C3E4A14;
+
+}
+#info{
+    background-color: #F2F4FA;
+}
+.info__wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info__text{
+    margin: 80px 0;
+}
+.info__title{
+    font-size: 36px;
+    font-weight: 300;
+    color: #3F4255;
+    margin-bottom: 24px;
+}
+.info__desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3F4255;
+}
+.info__adress{
+    margin: 113px 0;
+}
+.text{
+    padding: 28px 16px 28px 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9093A6;
+    background-color: #fff;
+    border-radius: 6px;
+    border: none;
+}
+.info__btn{
+    padding: 28px 24px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFE145;
+    font-size: 16px;
+    font-weight: 700;
+    color: #B79C10;
+    border: none;
+    
+}
+.specialities{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.specialities__title{
+    font-size: 36px;
+    font-weight: 300;
+    color: #3F4255;
+}
+.specialities__btn{
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9093A6;
+    border-radius: 4px;
+    border: none;
 }

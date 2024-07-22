@@ -182,3 +182,28 @@ a{
     border-radius: 4px;
     border: none;
 }
+.specialities__btn:hover{
+    background-color: #9093A6;
+    color: #fff;
+}
+.specialities__wrapper{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+.specialities__card{
+    width: 136px;
+    height: 136px;
+    box-shadow: 0px 2px 16px 0px #3C3E4A14;
+}
+.card__image{
+    width: 48px;
+    height: 48px;
+    margin: 24px auto;
+}
+.card__text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #313030;
+}
